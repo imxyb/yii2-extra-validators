@@ -28,4 +28,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \xyb\validators\AutoloadExample::widget(); ?>```
+you can in your model rule:
+['field', MobileValidator::className()]
+```
